@@ -1,4 +1,4 @@
-// ---------- 1.2.2 Метод «Rename Method» ----------
+// ---------- Метод «Rename Method» ----------
 /* Приклад коду до рефакторингу */
 fun f1(a: Double, b: Double): Double {
     return a * b * 0.1
@@ -19,7 +19,7 @@ fun main() {
     println(calculateDiscount(200.0, 3.0))
 }
 
-// ---------- 1.2.3 Метод «Extract / Replace Magic Number with Symbolic Constant» ----------
+// ---------- Метод «Extract / Replace Magic Number with Symbolic Constant» ----------
 /* Приклад коду до рефакторингу */
 fun calculateCircleArea(radius: Double): Double {
     return 3.14159 * radius * radius
@@ -40,7 +40,7 @@ fun main() {
     println("Area: ${calculateCircleArea(5.0)}")
 }
 
-// ---------- 1.2.4 Метод «Replace Temp with Query» ----------
+// ---------- Метод «Replace Temp with Query» ----------
 /* Приклад коду до рефакторингу */
 fun printOrderTotal(quantity: Int, price: Double) {
     val basePrice = quantity * price
@@ -62,7 +62,7 @@ fun printOrderTotal(quantity: Int, price: Double) {
     }
 }
 
-// ---------- 1.2.5 Загальний рефакторинг ----------
+// ---------- Загальний рефакторинг ----------
 /* Приклад коду до рефакторингу */
 fun getData(u: String, p: String): Boolean {
     if (u == "admin" && p == "1234") {
