@@ -62,7 +62,7 @@ fun printOrderTotal(quantity: Int, price: Double) {
     }
 }
 
-// ---------- 1.2.5 Метод «Rename Method» ----------
+// ---------- 1.2.5 Загальний рефакторинг ----------
 /* Приклад коду до рефакторингу */
 fun getData(u: String, p: String): Boolean {
     if (u == "admin" && p == "1234") {
